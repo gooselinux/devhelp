@@ -1,0 +1,12 @@
+diff -up devhelp-2.28.1/data/libdevhelp-1.0.pc.in.missing-webkit-1.0 devhelp-2.28.1/data/libdevhelp-1.0.pc.in
+--- devhelp-2.28.1/data/libdevhelp-1.0.pc.in.missing-webkit-1.0	2009-12-02 09:59:36.227612402 -0500
++++ devhelp-2.28.1/data/libdevhelp-1.0.pc.in	2009-12-02 09:59:44.836356861 -0500
+@@ -5,7 +5,7 @@ includedir=@includedir@
+ 
+ Name: devhelp
+ Description: devhelp
+-Requires: gtk+-2.0
++Requires: gtk+-2.0 webkit-1.0
+ Requires.private: @REQUIRES_LIBWNCK@
+ Version: @VERSION@
+ Libs: -L${libdir} -ldevhelp-1
